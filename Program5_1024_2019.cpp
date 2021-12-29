@@ -4,6 +4,8 @@
 //     Object of game is to combine number tiles with the same value, accumulating
 //     points as the game progresses, to try and create the tile with the value 1024.
 //     Each move consists of sliding pieces to the left, up, right or down.
+// Joseph Lenaghan
+// UIC CS 141, Spring 2019
 /*  Running program looks like:
  
      Dale Reed
@@ -50,13 +52,7 @@
      .
      .
 */
-/***
- * Mallavarapu:
- * 1) The header with the student name is missing.
- * 2) The comments at the functions should explain the parameters as well.
- * 3) The else-if ladder in the main can be broken down into more functional parts.
- * 4) Inconsistent blank lines.
- * ***/
+
 #include <iostream>     // For cin, cout, endl
 #include <iomanip>      // used for setting output field size using setw
 #include <cstdlib>      // For rand()
@@ -70,7 +66,9 @@ const int MaxTileStartValue = 1024;   // Max tile value to start out on a 4x4 bo
 // Display Instructions
 void displayInstructions()
 {
-    cout << "Welcome to 1024. \n"
+    cout << "Joseph Lenaghan \n"
+	 << "UIC CS 141, Spring 2019 \n"
+	 << "Welcome to 1024. \n"
          << "  \n"
          << "For each move enter a direction as a letter key, as follows: \n"
 		 << "    W    \n"
